@@ -20,7 +20,8 @@ const About = () => {
             <p>
               I am passionate about building execellent software that improves
               the life of those around me. I specialize in creating for client
-              ranging from individual and small businesses all the way to large enterprise corporations. 
+              ranging from individual and small businesses all the way to large
+              enterprise corporations.
             </p>
           </div>
         </div>

@@ -6,7 +6,11 @@ const Contact = () => {
       name="contact"
       className="w-full h-screen bg-[#0a192f] flex justify-center text-gray-300 items-center p-4"
     >
-      <form method="POST" action="https://getform.io/f/084f17a0-c0e8-465d-9531-97b342977da8" className="flex flex-col max-w-[600px] w-full">
+      <form
+        method="POST"
+        action="https://getform.io/f/084f17a0-c0e8-465d-9531-97b342977da8"
+        className="flex flex-col max-w-[600px] w-full"
+      >
         <div className="py-8">
           <p className="text-4xl inline font-bold border-b-4 border-pink-600 text-gray-300">
             Contact
@@ -35,7 +39,12 @@ const Contact = () => {
           placeholder="message"
           name="Message"
         ></textarea>
-        <button type="submit" className="text-2xl my-8 mx-auto  px-4 py-3 flex flex-auto items-center border-2 hover:text-pink-600 hover:border-white-600 text-white">Let's collabarate</button>
+        <button
+          type="submit"
+          className="text-2xl my-8 mx-auto  px-4 py-3 flex flex-auto items-center border-2 hover:text-pink-600 hover:border-white-600 text-white"
+        >
+          Let's collabarate
+        </button>
       </form>
     </div>
   );

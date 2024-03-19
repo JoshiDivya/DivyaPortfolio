@@ -5,10 +5,11 @@ import JavaScript from "../assets/javascript.png";
 import Node from "../assets/node.png";
 import Mongo from "../assets/mongo.png";
 import Tailwind from "../assets/tailwind.png";
-import Meteor from "../assets/meteor.png"
-import Jest from "../assets/jest.png"
+import Meteor from "../assets/meteor.png";
+import Jest from "../assets/jest.png";
 import Git from "../assets/github.png";
 import CSS from "../assets/css.png";
+import Nextjs from "../assets/nextjs.png";
 
 const Skills = () => {
   return (
@@ -40,6 +41,14 @@ const Skills = () => {
             <p className="my-4">React</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Node} alt="Node icon"></img>
+            <p className="my-4">Node</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Nextjs} alt="Nextjs icon"></img>
+            <p className="my-4">Nextjs</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Meteor} alt="Meteor icon"></img>
             <p className="my-4">Meteor</p>
           </div>
@@ -48,7 +57,11 @@ const Skills = () => {
             <p className="my-4">Jest</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="Tailwind icon"></img>
+            <img
+              className="w-20 mx-auto"
+              src={Tailwind}
+              alt="Tailwind icon"
+            ></img>
             <p className="my-4">Tailwind</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
@@ -59,10 +72,7 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={Git} alt="Git icon"></img>
             <p className="my-4">GitHub</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Node} alt="Node icon"></img>
-            <p className="my-4">Node</p>
-          </div>
+
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Mongo} alt="Mongo icon"></img>
             <p className="my-4">MongoDB</p>
