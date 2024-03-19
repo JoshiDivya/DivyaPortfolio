@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/DivyaPortfolio/static/css/main.f4b91ab8.css",
-    "main.js": "/DivyaPortfolio/static/js/main.9a39b408.js",
+    "main.css": "/DivyaPortfolio/static/css/main.44ba2fb6.css",
+    "main.js": "/DivyaPortfolio/static/js/main.e9949c82.js",
     "static/js/787.1ed0c42c.chunk.js": "/DivyaPortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/realestate.jpg": "/DivyaPortfolio/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/jest.png": "/DivyaPortfolio/static/media/jest.95bffbbd80a3ba10dfa4.png",
+    "static/media/profile.jpg": "/DivyaPortfolio/static/media/profile.f5c8e151197b1b5df0b5.jpg",
     "static/media/workImg.jpeg": "/DivyaPortfolio/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
+    "static/media/nextjs.png": "/DivyaPortfolio/static/media/nextjs.e0cc548b52ed71c83731.png",
     "static/media/logo.png": "/DivyaPortfolio/static/media/logo.9292e5e8466a966b1195.png",
     "static/media/logo1.png": "/DivyaPortfolio/static/media/logo1.9292e5e8466a966b1195.png",
     "static/media/react.png": "/DivyaPortfolio/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -18,12 +20,12 @@
     "static/media/meteor.png": "/DivyaPortfolio/static/media/meteor.03271d91cfc074a7116a.png",
     "static/media/javascript.png": "/DivyaPortfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/DivyaPortfolio/index.html",
-    "main.f4b91ab8.css.map": "/DivyaPortfolio/static/css/main.f4b91ab8.css.map",
-    "main.9a39b408.js.map": "/DivyaPortfolio/static/js/main.9a39b408.js.map",
+    "main.44ba2fb6.css.map": "/DivyaPortfolio/static/css/main.44ba2fb6.css.map",
+    "main.e9949c82.js.map": "/DivyaPortfolio/static/js/main.e9949c82.js.map",
     "787.1ed0c42c.chunk.js.map": "/DivyaPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4b91ab8.css",
-    "static/js/main.9a39b408.js"
+    "static/css/main.44ba2fb6.css",
+    "static/js/main.e9949c82.js"
   ]
 }
