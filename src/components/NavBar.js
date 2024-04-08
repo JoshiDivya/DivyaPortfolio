@@ -3,13 +3,20 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
-import logo from "../assets/logo.png";
 import logo1 from "../assets/logo1.png";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => setNav(!nav);
-  const handleDownload = () => {};
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href =  process.env.PUBLIC_URL + '/assets/resume.pdf';;
+    console.log(link.href);
+    link.download = 'resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div className="fixed w-full h-[100px] items-center flex justify-between bg-[#0a192f] text-gray-300">
       <div>
@@ -133,13 +140,13 @@ const NavBar = () => {
             </a>
           </li>
           <li className="flex w-[165px] h-[40px] justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
-            <a
+            <button
               className="flex justify-between items-center w-full text-gray-300"
               onClick={handleDownload}
-              href="/"
+
             >
               Resume <BsFillPersonLinesFill size={30} />
-            </a>
+            </button>
           </li>
         </ul>
       </div>
