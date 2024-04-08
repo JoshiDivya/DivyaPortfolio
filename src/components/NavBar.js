@@ -10,7 +10,7 @@ const NavBar = () => {
   const handleNav = () => setNav(!nav);
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href =  process.env.PUBLIC_URL + '/assets/resume.pdf';;
+    link.href =  process.env.PUBLIC_URL + '/resume.pdf';
     console.log(link.href);
     link.download = 'resume.pdf';
     document.body.appendChild(link);
