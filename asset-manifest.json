@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DivyaPortfolio/static/css/main.44ba2fb6.css",
-    "main.js": "/DivyaPortfolio/static/js/main.28abf88b.js",
+    "main.js": "/DivyaPortfolio/static/js/main.ecf68fcc.js",
     "static/js/787.1ed0c42c.chunk.js": "/DivyaPortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/realestate.jpg": "/DivyaPortfolio/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/jest.png": "/DivyaPortfolio/static/media/jest.95bffbbd80a3ba10dfa4.png",
@@ -20,11 +20,11 @@
     "static/media/javascript.png": "/DivyaPortfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/DivyaPortfolio/index.html",
     "main.44ba2fb6.css.map": "/DivyaPortfolio/static/css/main.44ba2fb6.css.map",
-    "main.28abf88b.js.map": "/DivyaPortfolio/static/js/main.28abf88b.js.map",
+    "main.ecf68fcc.js.map": "/DivyaPortfolio/static/js/main.ecf68fcc.js.map",
     "787.1ed0c42c.chunk.js.map": "/DivyaPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44ba2fb6.css",
-    "static/js/main.28abf88b.js"
+    "static/js/main.ecf68fcc.js"
   ]
 }
