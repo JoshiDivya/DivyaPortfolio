@@ -1,6 +1,6 @@
 import React from "react";
-import WorkImg from "../assets/workImg.jpeg";
-import RealState from "../assets/realestate.jpg";
+import ChitChatBot from "../assets/chatCover.jpg";
+import GenifyCover from "../assets/genify_cover.jpg";
 
 const Work = () => {
   return (
@@ -17,21 +17,26 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* grid item  */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex content-div items-center justify-center mx-auto"
+            style={{ backgroundImage: `url(${ChitChatBot})` }}
+            className="shadow-lg shadow-[#040c16] group first-letter: container rounded-md flex content-div background-image items-center justify-center mx-auto"
           >
             {/* hover effect */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 text-center group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                ChitChatBox
               </span>
-              <div className="pt-8 text-center">
-                <a href="#">
+              <div>
+                <span className="text-sm font-bold text-white tracking-wider">
+                  AI chat box
+                </span>
+              </div>
+              <div className="pt-4 text-center">
+                <a href="https://chit-chat-bot.vercel.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="#">
+                <a href="https://github.com/JoshiDivya/ChitChatBot" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -41,21 +46,26 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${RealState})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex content-div items-center justify-center mx-auto"
+            style={{ backgroundImage: `url(${GenifyCover})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex content-div background-image items-center justify-center mx-auto"
           >
             {/* hover effect */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0  text-center group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Genify
               </span>
+              <div>
+                <span className="text-sm font-bold text-white tracking-wider">
+                  Image Generator AI App
+                </span>
+              </div>
               <div className="pt-8 text-center">
-                <a href="#">
+                <a href="https://genify-kappa.vercel.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="#">
+                <a href="https://github.com/JoshiDivya/Genify" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -64,11 +74,11 @@ const Work = () => {
             </div>
           </div>
           {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${RealState})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex content-div items-center justify-center mx-auto"
+          {/* <div
+            style={{ backgroundImage: `url(${GenifyCover})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex content-div background-image items-center justify-center mx-auto"
           >
-            {/* hover effect */}
+           
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React JS Application
@@ -86,7 +96,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

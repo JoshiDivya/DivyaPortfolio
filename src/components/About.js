@@ -16,7 +16,7 @@ const About = () => {
           <div className="sm:text-right text-4xl font-bold">
             <p>Hi, I am Divya, nice to meet you. Please take a look around</p>
           </div>
-          <div>
+          <div className="pt-1">
             <p>
               I am passionate about building execellent software that improves
               the life of those around me. I specialize in creating for client
